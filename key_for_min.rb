@@ -11,6 +11,8 @@ def key_for_min_value(name_hash)
   end
   if size == current_value
     return name
+  else
+    return nil
   end
 end
 end
